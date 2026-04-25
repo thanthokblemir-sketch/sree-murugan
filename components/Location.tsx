@@ -28,7 +28,7 @@ export default function Location() {
                 <div className="flex items-start gap-4">
                   <MapPin className="text-primary-saffron shrink-0" size={20} />
                   <span className="font-body text-rich-brown font-bold tracking-wide">
-                     Main Road, Tisca, Ponda, South Goa – 403406
+                    C37J+6QR, Tisk Usgao, Tisca, Darbandora, Goa 403406
                   </span>
                 </div>
                 <div className="flex items-start gap-4">
@@ -63,6 +63,11 @@ export default function Location() {
               <p className="font-body text-sm leading-relaxed mb-4">
                 Travelling to North Goa, Panaji, or the Ponda temples? We're right on your route. Stop in for a fresh breakfast and hot tea before you hit the road — you'll be glad you did.
               </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                <div className="bg-rich-brown text-warm-cream px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider flex items-center gap-1.5">
+                  🚙 Ample Parking Space
+                </div>
+              </div>
               <div className="flex flex-wrap gap-2">
                 <div className="bg-rich-brown text-warm-cream px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider flex items-center gap-1.5">
                   <CreditCard size={10} />
@@ -79,7 +84,7 @@ export default function Location() {
           <FadeUp delay={0.2} className="flex flex-col h-full min-h-[400px]">
             <div className="h-full rounded-2xl overflow-hidden border-2 border-muted-gold shadow-xl">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15383.02497678385!2d74.02!3d15.42!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfba38ca3d8dd5%3A0xe543e580!2sTisca%2C%20Goa!5e0!3m2!1sen!2sin!4v1714065600000!5m2!1sen!2sin"
+                src="https://maps.google.com/maps?width=100%25&height=600&hl=en&q=C37J%2B6QR,%20Tisk%20Usgao,%20Tisca,%20Darbandora,%20Goa%20403406+(Sree%20Murugan%20Hotel)&t=&z=16&ie=UTF8&iwloc=B&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0, minHeight: '400px' }}
@@ -90,7 +95,7 @@ export default function Location() {
               ></iframe>
             </div>
             <a
-              href="https://maps.google.com/?q=Tisca+Ponda+Goa"
+              href="https://maps.app.goo.gl/9XdQyx5gHGezLLFH9"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-6 w-full bg-primary-saffron text-white py-4 rounded-full font-bold text-center hover:bg-opacity-90 transition-all flex items-center justify-center gap-2 shadow-lg"

@@ -55,8 +55,8 @@ export default function RootLayout({
               "description": "30-year-old family-run South Indian breakfast restaurant in Tisca, Ponda, Goa. Fresh homemade Puttu, Appam, Egg Curry, Idly, Porotta daily from 6 AM.",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Main Road, Tisca",
-                "addressLocality": "Ponda",
+                "streetAddress": "C37J+6QR, Tisk Usgao, Tisca, Darbandora",
+                "addressLocality": "Goa",
                 "addressRegion": "Goa",
                 "postalCode": "403406",
                 "addressCountry": "IN"
@@ -67,7 +67,7 @@ export default function RootLayout({
               "priceRange": "₹",
               "paymentAccepted": "Cash, UPI",
               "foundingDate": "1994",
-              "hasMap": "https://maps.google.com/?q=Tisca+Ponda+Goa"
+              "hasMap": "https://maps.app.goo.gl/9XdQyx5gHGezLLFH9"
             }),
           }}
         />

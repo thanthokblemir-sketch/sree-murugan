@@ -63,7 +63,7 @@ export default function Footer() {
                   <MapPin size={18} />
                 </div>
                 <div>
-                  <span className="block font-body text-sm text-balance">Main Road, Tisca, Ponda, South Goa</span>
+                  <span className="block font-body text-sm text-balance">C37J+6QR, Tisk Usgao, Tisca, Darbandora, Goa 403406</span>
                   <span className="text-xs opacity-50 uppercase tracking-widest">NH4A Corridor</span>
                 </div>
               </div>

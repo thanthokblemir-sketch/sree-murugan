@@ -15,16 +15,19 @@ export default function AdvanceOrders() {
           <Quote className="mx-auto mb-6 md:mb-8 text-muted-gold opacity-30" size={64} fill="currentColor" />
           
           <h2 className="font-display text-3xl md:text-5xl text-warm-cream mb-6 md:mb-8 leading-tight">
-            Coming as a Family?<br />Planning Ahead?
+            Heading our way?
           </h2>
         </FadeUp>
         
         <FadeUp delay={0.2} className="space-y-4 md:space-y-6 mb-10 md:mb-12 max-w-2xl mx-auto">
           <p className="font-body text-base md:text-lg text-warm-cream leading-relaxed font-light">
-            We can prepare your favourite South Indian dishes in advance — whether you're a family on a road trip, a group of friends, or someone craving a specific dish. Just give us a call before you arrive and we'll have it fresh and ready for you.
+            If you have a specific South Indian favorite in mind—or if you're traveling with a big group and want to make things easier—feel free to give us a call before you arrive.
+          </p>
+          <p className="font-body text-base md:text-lg text-warm-cream leading-relaxed font-light">
+            We can't always promise it (it depends on how busy the kitchen is and what's in stock), but if you let us know what you're after and when you'll be here, we'll do our absolute best to have it ready and waiting for you.
           </p>
           <p className="font-body text-base md:text-lg text-warm-cream leading-relaxed font-light italic">
-            Special meal requests are welcome. Tell us what you'd like, when you'll arrive, and we'll take care of the rest.
+            Give us a shout and we'll see what we can do!
           </p>
         </FadeUp>
 
