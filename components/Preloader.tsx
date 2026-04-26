@@ -4,9 +4,13 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 
 export default function Preloader() {
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
+  const [hasMounted, setHasMounted] = useState(false);
 
   useEffect(() => {
+    setHasMounted(true);
+    setIsLoading(true);
+    
     // Lock scrolling while preloader is active
     document.body.style.overflow = "hidden";
     
@@ -20,6 +24,8 @@ export default function Preloader() {
       document.body.style.overflow = "unset";
     };
   }, []);
+
+  if (!hasMounted) return null;
 
   return (
     <AnimatePresence>

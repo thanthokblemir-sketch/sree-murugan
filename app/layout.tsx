@@ -29,11 +29,14 @@ export const metadata: Metadata = {
     title: "Sree Murugan Hotel & Restaurant | Tisca, Goa",
     description: "30-year-old family-run South Indian breakfast spot. Homemade Puttu, Appam, Idly & more. Open 6 AM–12 PM.",
     type: "website",
-    url: "https://sreemurugantisca.in",
+    url: "https://sreemurugan.vercel.app",
   },
   robots: "index, follow",
   alternates: {
-    canonical: "https://sreemurugantisca.in",
+    canonical: "https://sreemurugan.vercel.app",
+  },
+  verification: {
+    google: "ib3eR1X83Vfo3Nle7Vxtv-MCXQzEFKIIuhXu1bgLVGQ",
   },
 };
 
@@ -56,7 +59,7 @@ export default function RootLayout({
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "C37J+6QR, Tisk Usgao, Tisca, Darbandora",
-                "addressLocality": "Goa",
+                "addressLocality": "Ponda",
                 "addressRegion": "Goa",
                 "postalCode": "403406",
                 "addressCountry": "IN"
