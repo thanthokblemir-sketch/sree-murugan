@@ -39,10 +39,14 @@ export default function Menu() {
               <div 
                 className="h-full bg-white p-6 rounded-[12px] shadow-[0_4px_20px_rgba(184,92,42,0.12)] border border-muted-gold/10 hover:translate-y-[-4px] transition-all duration-300 group"
               >
-                <div className={cn(
-                  "w-16 h-16 rounded-full flex items-center justify-center text-3xl mb-4 group-hover:scale-110 transition-transform",
-                  index % 2 === 0 ? "bg-primary-saffron/10" : "bg-deep-terracotta/10"
-                )}>
+                <div 
+                  role="img"
+                  aria-label={item.name}
+                  className={cn(
+                    "w-16 h-16 rounded-full flex items-center justify-center text-3xl mb-4 group-hover:scale-110 transition-transform",
+                    index % 2 === 0 ? "bg-primary-saffron/10" : "bg-deep-terracotta/10"
+                  )}
+                >
                   {item.emoji}
                 </div>
                 <h3 className="font-display font-bold text-xl text-rich-brown mb-2">

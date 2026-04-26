@@ -61,7 +61,7 @@ export default function Location() {
 
             <div className="bg-forest-green p-6 rounded-xl text-white shadow-lg mb-6">
               <p className="font-body text-sm leading-relaxed mb-4">
-                Travelling to North Goa, Panaji, or the Ponda temples? We're right on your route. Stop in for a fresh breakfast and hot tea before you hit the road — you'll be glad you did.
+                Travelling to North Goa, Panaji, or the Ponda temples? We're right on the main Belagavi-Goa highway (NH4A). Stop in for a fresh breakfast and hot tea before you hit the road — we're a key stop on the Dudhsagar and Bondla Sanctuary route.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 <div className="bg-rich-brown text-warm-cream px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider flex items-center gap-1.5">
